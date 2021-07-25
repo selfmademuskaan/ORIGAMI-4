@@ -1,0 +1,55 @@
+h1{
+color:black;
+}
+
+body{ 
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+
+@keyframes mymove {
+  from{padding-left:500px};
+ to {padding-right:500px};
+ }
+ 
+.header{
+  background-color:#f7cac9;  
+  display:flex;
+  justify-content:space-between ; 
+  animation-name:  mymove; 
+  animation-duration: 8s;
+}
+
+.header title{
+animation: mymove 4s linear infinite;
+}
+
+
+.grid{
+  border: 2px solid;
+  border-radius: 50px;
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+}
+
+  .Origami{
+    background-color:#ff7366; 
+    border-radius: 20px;
+    width: 200px;
+  }
+
+  a:link{
+    color: purple;
+  }
+  
+  a:visited{
+  color: lightblue;
+  }
+  
+  .Origami:hover p {
+    opacity: 1;
+  }
+  
+  .Origami:hover img {
+  opacity: 0.5;
+  }
